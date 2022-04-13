@@ -200,51 +200,7 @@ const Home = () => {
                         
                         
                     </div>
-                    <div className="blog-3">
-                        <div className="tumble">
-                        <img src={icon8} alt="" />
-                         <div className="tumble-info">
-                             <h2>Photosut</h2>
-                             <p>$20.29</p>
-                            
-                              <h6>worldwide shifting</h6>
-                              <h6>avaiable</h6>
-                              <h6>Bayers protection possible!</h6>
-                          </div>
-                        </div>
-                        
-                        
-                    </div>
-                    <div className="blog-3">
-                        <div className="tumble">
-                        <img src={icon4} alt="" />
-                         <div className="tumble-info">
-                            <h2>Dron Camera</h2>
-                            <p>$30.47</p>
-                          
-                            <h6>Sutting point</h6>
-                            <h6>Managment</h6>
-                            <h6>Enjoy location and people!</h6>
-                        </div>
-                        </div>
-                        
-                        
-                    </div>
-                    <div className="blog-3">
-                        <div className="tumble">
-                        <img src={icon2} alt="" />
-                         <div className="tumble-info">
-                             <h2>Mini Camera</h2>
-                             <p>$40.48</p>
-                            
-                             <h6>Trampted location</h6>
-                             <h6>avaiable</h6>
-                             <h6>Algorithm to case point!</h6>
-                         </div>
-                        </div>
-                        
-                        
-                    </div>
+                   
                 </div>
                 
             </section>
@@ -319,17 +275,17 @@ const Home = () => {
               </div>
 
               <div className="sample-cart">
-                  <div className="sample-1">
-                      <p>$2250 Revenue</p>
+                  <div className="sample-first">
+                      <p className='reveneu'>$2250 Revenue</p>
                    <LineChart width={500} height={120} data={data}>
                   
                      <Line dataKey='cost'></Line>  
                    </LineChart>
                   </div>
-                  <div className="sample-2">
+                  <div className="sample-second">
                       
                   
-                  <BarChart
+                  <BarChart className='bar'
           width={500}
           height={150}
           data={data}

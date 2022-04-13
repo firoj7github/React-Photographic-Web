@@ -174,7 +174,7 @@ const Dashboard = () => {
                   <div className="sample-2">
                       
                   
-                  <BarChart
+                  <BarChart className='bar-1'
           width={500}
           height={150}
           data={data}

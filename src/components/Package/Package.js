@@ -109,51 +109,9 @@ const Package = () => {
                         
                         
                     </div>
-                    <div className="blog-3">
-                        <div className="tumble">
-                        <img src={icon8} alt="" />
-                         <div className="tumble-info">
-                             <h2>Photosut</h2>
-                             <p>$20.29</p>
-                            
-                              <h6>worldwide shifting</h6>
-                              <h6>avaiable</h6>
-                              <h6>Bayers protection possible!</h6>
-                          </div>
-                        </div>
-                        
-                        
-                    </div>
-                    <div className="blog-3">
-                        <div className="tumble">
-                        <img src={icon4} alt="" />
-                         <div className="tumble-info">
-                            <h2>Dron Camera</h2>
-                            <p>$30.47</p>
-                          
-                            <h6>Sutting point</h6>
-                            <h6>Managment</h6>
-                            <h6>Enjoy location and people!</h6>
-                        </div>
-                        </div>
-                        
-                        
-                    </div>
-                    <div className="blog-3">
-                        <div className="tumble">
-                        <img src={icon2} alt="" />
-                         <div className="tumble-info">
-                             <h2>Mini Camera</h2>
-                             <p>$40.48</p>
-                            
-                             <h6>Trampted location</h6>
-                             <h6>avaiable</h6>
-                             <h6>Algorithm to case point!</h6>
-                         </div>
-                        </div>
-                        
-                        
-                    </div>
+                 
+               
+                
                 </div>
                 
             </section>
